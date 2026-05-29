@@ -1,0 +1,5 @@
+node_modules/
+.env
+projects.db
+projects.db-wal
+projects.db-shm

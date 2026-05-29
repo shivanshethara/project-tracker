@@ -1,0 +1,20 @@
+{
+  "name": "project-tracker-server",
+  "version": "1.0.0",
+  "description": "Express + better-sqlite3 backend for the personal project tracker",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "11.10.0",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.0"
+  }
+}
